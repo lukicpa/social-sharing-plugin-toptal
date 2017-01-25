@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#social-services .widget-liquid-left{
+    width: 45%;
+}
+
+#social-services .widget-liquid-left #widgets-left {
+    padding-top:0;
+}
+
+#social-services .widget-liquid-left .widgets-holder-wrap{
+    border: 1px solid #e5e5e5;
+    background: #FFFFFF;
+}
+
+#social-services .centered-arrow-rtl {
+    float: left;
+    margin-top: 80px;
+    padding: 0 1%;
+}
+
+#social-services .centered-arrow-rtl i:before {
+    color: #aaaaaa;
+}
+
+.social-sharing-settings .widgets-holder-wrap .widget-top {
+    padding: 5px;
+}
+
+
+#social-services .sidebar-description {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 12px !important;
+}
+
+#social-services .widget-liquid-right{
+    float: left;
+    width: 45%;
+}
+
+#social-services .widget-liquid-right .widgets-holder-wrap{
+    background-color: transparent;
+}
+
+#social-services .widgets-holder {
+    background-color: #f1f1f1;
+}
+
+#social-catalog {
+    min-height: 70px;
+    margin-left: 25px;
+    opacity: .6;
+}
+
+#social-enabled {
+    min-height: 70px;
+    margin-left: 25px;
+}
+
+.social-service {
+    width: 50px;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.dropzone {
+    border: 1px dashed #000;
+    background-color: #eee;
+    display:inline-block;
+    width: 50px;
+    float: left;
+    margin: 0 10px 10px;
+}
+
+.social-sharing-display table td.input-checkbox,    .social-sharing-settings  table td.input-checkbox,
+.social-sharing-display table td.input-radio,       .social-sharing-settings  table td.input-radio{
+    width: 20px;
+}
+
+.sharing-icon-size-table i {
+    padding: 3px;
+}
+
+.sharing-icon-size-table i.fa-twitter:before {
+    color: #0084b4;
+}
+
+.sharing-icon-size-table i.fa-facebook:before {
+    color: #3b5998;
+}
+
+.sharing-icon-size-table i.fa-google-plus:before {
+    color: #d34836;
+}
+
+.sharing-icon-size-table i.fa-pinterest:before {
+    color: #C92228;
+}
+
+.sharing-icon-size-table i.fa-linkedin:before {
+    color: #0077B5;
+}
+
+.sharing-icon-size-table i.fa-whatsapp:before {
+    color: #075E54;
+}

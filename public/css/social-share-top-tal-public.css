@@ -1,0 +1,84 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.sst_sharing_box .social-share-link {
+    display: inline-block;
+}
+
+.sst_sharing_box .social-share-link a {
+    display: block;
+    padding: .2em;
+    box-shadow: none;
+}
+
+.sst_sharing_box .social-share-link a:hover, .sst_sharing_box .social-share-link a:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.sst_sharing_box .social-share-link a i.fa-small {
+    font-size: 14px;
+}
+
+.sst_sharing_box .social-share-link a i.fa-lg {
+    font-size: 20px;
+}
+
+.sst_sharing_box .social-share-link a i.fa-2x {
+    font-size: 26px;
+}
+
+.sst_sharing_box .social-share-link a:hover i {
+    opacity: .8;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.sst_sharing_box.sstt_display_floating {
+    position: fixed;
+    left: 20px;
+    top: 48%;
+}
+.sst_sharing_box.sstt_display_featured_image{
+
+}
+
+.sst_sharing_box .social-share-link.share-twitter a i:before {
+    color: #0084b4;
+}
+
+.sst_sharing_box .social-share-link.share-facebook a i:before {
+    color: #3b5998;
+}
+
+.sst_sharing_box .social-share-link.share-google-plus a i:before {
+    color: #d34836;
+}
+
+.sst_sharing_box .social-share-link.share-pinterest a i:before {
+    color: #C92228;
+}
+
+.sst_sharing_box .social-share-link.share-linkedin a i:before {
+    color: #0077B5;
+}
+
+.sst_sharing_box .social-share-link.share-whatsapp a i:before {
+    color: #075E54;
+}
+
+.sst_sharing_box .social-share-link a{
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    .sst_sharing_box.sstt_display_floating {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top: initial;
+    }
+}
